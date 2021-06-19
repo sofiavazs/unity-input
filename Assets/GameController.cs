@@ -11,14 +11,14 @@ public class GameController : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-			if (Input.GetKeyDown("space")) {
-				Debug.Log("jump");
-			}
-			if (Input.GetKeyDown("left")) {
-				Debug.Log("left");
-			}
-			if (Input.GetKeyDown("right")) {
-				Debug.Log("right");
-			}
+      if (Input.GetKeyDown("space")) {
+        Debug.Log("jump");
+      }
+      if (Input.GetKeyDown("left")) {
+        Debug.Log("left");
+      }
+      if (Input.GetKeyDown("right")) {
+        Debug.Log("right");
+      }
     }
 }
